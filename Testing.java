@@ -11,7 +11,7 @@ public class Testing {
         employee.setId(sc.nextInt());
 
         System.out.println("Enter name : ");
-        employee.setName(sc.nextLine()); 
+        employee.setName(sc.next()); 
 
         System.out.println("Enter Salary: ");
         employee.setSalary(sc.nextInt());
